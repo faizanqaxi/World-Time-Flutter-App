@@ -33,7 +33,8 @@ class WorldTime {
     }
     catch (e) {
       print(e);
-      time = 'could not get time';
+      time = 'Sorry ! could not get time from the api';
+      isDaytime = true;
     }
 
   }

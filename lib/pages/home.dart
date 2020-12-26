@@ -77,10 +77,16 @@ class _HomeState extends State<Home> {
                   ],
                 ),
                 SizedBox(height: 20.0),
+                Image.asset(
+                  'assets/${data['flag']}',
+                  height: 100,
+                  width: 200,
+                ),
+                SizedBox(height: 20.0),
                 Text(
                     data['time'],
                     style: TextStyle(
-                        fontSize: 66.0,
+                        fontSize: 40.0,
                         color: Colors.white
                     )
                 ),
